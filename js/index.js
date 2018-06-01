@@ -4,7 +4,7 @@ window.onload=function(){
 	document.getElementById("b").onkeyup = function(){cambiar()};
 };
 
-function cambiarDivisa(){
+function cambiar(){
 	var api_key="d5a578fdba64c7b0534bf54935f915cd";
 	var a = document.getElementById("a").value; 
 	var b = document.getElementById("b").value;
