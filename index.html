@@ -5,7 +5,7 @@
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
         <title>CONVERTIDOR DE DIVISAS</title>
     </head>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    
     <body>
         <div id="combo">
 		<h2>Conversor de Divisas</h2>
@@ -13,7 +13,7 @@
 			<tr>
 				<td><input id="decantidad" type="text" size="15" value="1" onkeyup="cambiarDivisa();" ></td>
 				<td>
-					<select id="de" onchange="cambiarDivisa();">
+					<select id="de" onchange="cambiar();">
 						<option value="COP" selected>Pesos Colombianos (COP)</option>
 						<option value="USD">Dólar Americano (USD)</option>
 						<option value="JPY">Japanese Yen (JPY)</option>
@@ -25,7 +25,7 @@
 			<tr>
 				<td><input id="acantidad" type="text" size="15" disabled="" ></td>
 				<td>
-					<select id="a"onchange="cambiarDivisa();">
+					<select id="a"onchange="cambiar();">
 						<option value="COP">Pesos Colombianos (COP)</option>
 						<option value="USD" selected>Dólar Americano (USD)</option>
 						<option value="JPY">Japanese Yen (JPY)</option>
